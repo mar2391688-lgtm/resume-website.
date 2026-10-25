@@ -38,12 +38,11 @@ The resume focuses on my interests in web development, IT support, and Linux sys
 - `README.md` – Project documentation
 
 ## GitHub Repository
-
-https://github.com/mar2391688-lgtm/resume-website
+https://github.com/mar2391688-lgtm/resume-website.
 
 ## Live Website
 
-https://mar2391688-lgtm.github.io/resume-website/
+https://mar2391688-lgtm.github.io/resume-website./
 
 ## Validation and Accessibility
 
