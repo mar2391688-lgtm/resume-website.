@@ -42,7 +42,7 @@ https://github.com/mar2391688-lgtm/resume-website.
 
 ## Live Website
 
-https://mar2391688-lgtm.github.io/resume-website./
+https://mar2391688-lgtm.github.io/resume-website/
 
 ## Validation and Accessibility
 
