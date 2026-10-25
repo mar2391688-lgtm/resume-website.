@@ -1,0 +1,127 @@
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 0.5rem 0;
+}
+
+header a {
+  color: #ffffff;
+}
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #19362e;
+  padding: 1rem;
+}
+
+nav a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Resume Sections */
+section {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #d6ded8;
+  border-radius: 8px;
+}
+
+section h2 {
+  margin-top: 0;
+  color: #24483f;
+  font-size: 1.5rem;
+}
+
+section h3 {
+  color: #24483f;
+  font-size: 1.15rem;
+}
+
+section p {
+  margin-bottom: 1rem;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Article Styles */
+article {
+  margin-bottom: 1.5rem;
+}
+
+article:last-child {
+  margin-bottom: 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #24483f;
+  color: #ffffff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Accessibility */
+a:focus-visible {
+  outline: 3px solid #e8aa38;
+  outline-offset: 4px;
+}
+
+/* Mobile Layout */
+@media screen and (max-width: 600px) {
+  header {
+    padding: 2rem 1rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav {
+    gap: 0.75rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  section {
+    padding: 1rem;
+  }
+}
+
+/* Reduced Motion Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
